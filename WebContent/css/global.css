@@ -1,0 +1,158 @@
+@CHARSET "ISO-8859-1";
+
+body,input {
+	font-family: Segoe UI, Arial, Times;
+	font-size: 12pt;
+}
+
+a {
+	color: black;
+}
+
+span {
+	margin: 5px;
+	padding: 5px;
+}
+
+select {
+	font-family: Segoe UI;
+	font-size: 12pt;
+	width: 300px;
+}
+
+input[type=text],input[type=password] {
+	width: 300px;
+}
+
+input[type=submit],input[type=reset],input[type=button] {
+	width: 100px;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin: 5px; 
+	font-weight : bold;
+	float: right;
+	font-weight: bold;
+}
+
+fieldset#fieldset_login {
+	margin: auto;
+	width: 280px;
+	padding: 50px;
+}
+
+.label {
+	float: left;
+	text-align: right;
+	line-height: 1.9em;
+	padding-right: 2px;
+}
+
+#fieldset_login .campo input {
+	float: right;
+}
+
+.campo a {
+	padding-right: 60px;
+	float: right;
+	padding-top: 10px;
+}
+
+.main {
+	min-height: 600px;
+	clear: both;
+}
+
+/* Estilo do cabeçalho e rodapé */
+.rodape {
+	padding: 5px;
+	border-top: 1px dotted gray;
+}
+
+.cabecalho {
+	border-bottom: 1px dotted gray;
+	min-height: 60px;
+}
+
+.cabecalho a {
+	text-decoration: none;
+}
+
+.cabecalho a.selected {
+	font-weight: bold;
+	color: gray;
+}
+
+.cabecalho a:hover {
+	text-decoration: underline;
+}
+
+.cabecalho .logo {
+	float: left;
+}
+
+.cabecalho .logo img {
+	width: 70%;
+	padding: 10px;
+}
+
+.cabecalho ul,.cabecalho ol {
+	float: right;
+	list-style: none;
+	padding-right: 10px;
+}
+
+.cabecalho li {
+	float: left;
+	margin: 0px 4px;
+	padding-right: 5px;
+	border-right: 1px solid gray;
+}
+
+.boasVindas {
+	float: right;
+	clear: both;
+}
+/* Fim do estilo do cabeçalho e rodapé */
+.erroDiv {
+	min-height: 25px;
+	border: 2px solid red;
+	width: auto;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.sucDiv {
+	min-height: 25px;
+	border: 2px solid green;
+	width: auto;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.avisoDiv {
+	min-height: 25px;
+	border: 2px solid orange;
+	width: auto;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+/* Estilo referente às tabelas */
+.alignLeft {
+	text-align: left;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+table img {
+	width: 25px;
+}
